@@ -14,7 +14,7 @@ my.kv
   - GUI formatting and styling; written in KV (Kivy language)
 
 holdem_engine.py
-  - Classes and functions related to general Texas Hold'em mechanics (Card and Deck objects, hand evaluation methods, etc.)
+  - Classes and functions related to general Texas Hold'em mechanics (Card and Deck objects, naive hand evaluation, etc.)
 
 equity_calculator.py
   - Classes and functions related to setting up and running poker simulations

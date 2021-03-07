@@ -5,6 +5,7 @@ Generate win probability estimates for specific Texas Hold'em scenarios using a 
 
 Please note that the project is a work-in-progress! The GUI is still quite crude and does not feature any error handling. Simulation performance also has substantial room for improvement. That said, the program is more than sufficient for it's most likely use case: generating a quick-and-dirty hand equity estimate. Enjoy! (: 
 
+
 ## File Descriptions
 main.py
   - Main project file; run to launch GUI
@@ -21,11 +22,12 @@ equity_calculator.py
 hash_tools.py
   - Classes and functions related to the creation of a hash lookup table that can be used to evaluate poker hands
 
-eval_table.pickle
+poker_hash_lookup.pickle
   - 'Pickle' file that contains hand evaluation lookup table; used instead of a CSV to reduce memory load
 
 test.py
   - Used to test holdem_engine.py
+
 
 ## Dependencies
 - Python

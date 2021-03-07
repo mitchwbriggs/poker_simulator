@@ -8,7 +8,7 @@ import pickle
 
 
 class Simulation:
-    """Class that represents a simulation of Poker outcomes given Scenario object as an input"""
+    """Class that represents a Poker simulation"""
     def __init__(self, scenario):
         self.scenario = scenario # object of type Scenario
         self.results = None # object of type Results

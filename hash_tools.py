@@ -6,7 +6,7 @@ import itertools
 import pickle
 
 def build_hash_table():
-    """Function that creates a Holdem Hand Evaluation Hash Lookup Table"""
+    """Function that creates a Texas Hold'em hash lookup table for hand evaluation"""
 
     # build a deck of cards (holdem_engine.py)
     deck = hldm.Deck()
@@ -15,7 +15,7 @@ def build_hash_table():
     combos = list(itertools.combinations(deck.cards, 5))
     num_combos = len(combos)
 
-    # build the hash table
+    # setup the hash table
     hash_ids = []
     ranks = []
     subranks1 = []

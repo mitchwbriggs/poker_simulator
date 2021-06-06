@@ -1,4 +1,4 @@
-# Poker Calculator
+# Poker Simulator
 
 # Overview
 Generate win probability estimates for specific Texas Hold'em scenarios. The GUI takes in your cards, the cards on the board, and the number of opponents remaining in the hand as inputs. Monte Carlo simulations are run on the backend and the resultant win percentage is returned as an output. The estimate typically falls within +/- 1 percentage point of the actual win probability value.

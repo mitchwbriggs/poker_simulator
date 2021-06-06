@@ -46,14 +46,22 @@ def build_hash_table():
     print("")
     print("Preparing hash table...")
 
-    hash_dict = {'hash_id': hash_ids, 'rank': ranks, 'subrank1':subranks1,
-                 'subrank2':subranks2, 'subrank3':subranks3, 'subrank4':subranks4, 'subrank5':subranks5}
+    hash_dict = {
+        'hash_id': hash_ids,
+        'rank': ranks, 
+        'subrank1':subranks1,
+        'subrank2':subranks2, 
+        'subrank3':subranks3, 
+        'subrank4':subranks4, 
+        'subrank5':subranks5
+    }
+    
     hash_df = pd.DataFrame(hash_dict)
 
     # sort the hash df by rank and subranks of each hand
     hash_df = hash_df.sort_values(['rank','subrank1','subrank2','subrank3','subrank4','subrank5'])
 
-    #combine rank columns into single string values
+    #combine rank columns into concatenated string values
     hash_df['combined'] = hash_df[['rank','subrank1','subrank2','subrank3','subrank4','subrank5']].apply(
                  lambda x: '_'.join(map(str, x)), axis=1)
 

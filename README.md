@@ -15,13 +15,13 @@ my.kv
 holdem_engine.py
   - Classes and functions related to general Texas Hold'em mechanics (Card and Deck objects, naive hand evaluation, etc.)
 
-equity_calculator.py
+simulation_engine.py
   - Classes and functions related to setting up and running poker simulations
 
 hash_tools.py
   - Classes and functions related to the creation of a hash lookup table that can be used to evaluate poker hands
 
-poker_hash_lookup.pickle
+hash_lookup.pickle
   - 'Pickle' file that contains hand evaluation lookup table; used instead of a CSV to reduce memory load
 
 test.py

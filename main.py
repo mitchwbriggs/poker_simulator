@@ -200,6 +200,8 @@ class App(QDialog):
         result = sim.result
 
         msg = QMessageBox()
+        icon = QIcon("app_icon.png")
+        msg.setWindowIcon(icon)
         msg.setWindowTitle("Simulation Results")
         msg.setText("Estimated Win Probability: " + result + "                      ")
 
@@ -236,6 +238,6 @@ class App(QDialog):
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     app.setStyle('Fusion')
-    app.setFont(QFont("Helvetica", 9))
+    app.setFont(QFont("Segoe UI", 9))
     ex = App()
     sys.exit(app.exec_())

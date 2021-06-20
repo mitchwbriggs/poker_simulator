@@ -24,6 +24,9 @@ hash_lookup.pickle
 test.py
   - Used to test holdem_engine.py
 
+app_icon.png
+  - Image used for app icon
+
 
 ## Dependencies
 - Python

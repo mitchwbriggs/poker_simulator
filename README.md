@@ -3,7 +3,7 @@
 # Overview
 Generate win probability estimates for specific Texas Hold'em scenarios. The GUI takes in your cards, the cards on the board, and the number of opponents remaining in the hand as inputs. Monte Carlo simulations are run on the backend and the resultant win percentage is returned as an output. This estimate typically falls within +/- 1 percentage point of the actual win probability value.
 
-Please note that the project is a work-in-progress! The GUI is crude and simulation performance leaves something to be desired. That said, the program is sufficient for it's most likely use case: generating a quick-and-dirty hand equity estimate. Enjoy! (: 
+Please note that the project is a work-in-progress! The GUI is a bit crude and simulation performance leaves something to be desired. That said, the program is sufficient for it's most likely use case: generating a quick-and-dirty hand equity estimate. Enjoy! (: 
 
 ## File Descriptions
 main.py
